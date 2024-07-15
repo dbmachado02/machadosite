@@ -24,3 +24,11 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         document.getElementById('formResponse').innerText = 'Ocorreu um erro ao enviar a mensagem.';
     });
 });
+function mudarImagem(src) {
+    var img = document.getElementById('imagem-principal');
+    img.style.opacity = 0; // Desvanece a imagem principal
+    setTimeout(function() {
+        img.src = src;
+        img.style.opacity = 1; // Volta a opacidade para 1
+    }, 500); // Tempo de transição deve coincidir com o tempo de desvanecimento
+}

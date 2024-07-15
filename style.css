@@ -126,3 +126,26 @@ ul {
     list-style: disc inside;
     padding-left: 20px;
 }
+ /* Estilos para a galeria */
+ .galeria {
+    margin: 20px auto; /* Adiciona um pouco de margem ao redor da galeria */
+    max-width: 1000px; /* Define uma largura máxima para a galeria */
+}
+
+.fotos {
+    text-align: center; /* Centraliza as imagens dentro do contêiner */
+}
+
+.fotos a {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid #ddd; /* Adiciona uma borda para destacar as imagens */
+    padding: 5px; /* Adiciona um pouco de espaço ao redor da imagem */
+}
+
+.fotos img {
+    max-width: 150px; /* Define um tamanho máximo para as miniaturas */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
